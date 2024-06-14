@@ -1,0 +1,405 @@
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600;700&display=swap');
+html{
+  font-size: 62.5%;
+}
+*{
+  font-family: 'Noto Serif', serif;
+}
+:root{
+  --bgHomeHead :  rgba(0, 102, 255, 0.279);
+  --bgHeight : 91.2vh;
+  /* --cardWidth : 30%;
+  --cardForm : 100%;
+  --cardHeight : 80%; */
+}
+
+
+/* All Container Class For Display Property*/
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display-c{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.fsForm{
+  font-size: 12rem;
+}
+.btnSet{
+  font-size: 2rem;
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+
+
+
+
+
+.homeBg{
+  width: 100%;
+  /* height: 91.2vh; */
+  height: var(--bgHeight);
+  background-image: url("../public/Img/homeBg.jpg");
+  /* opacity: 0.7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeHeading , .admintHeaading{
+  width: 80%;
+  height: 40%;
+  background-color: var(--bgHomeHead);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: .1rem solid rgb(5, 4, 4);
+  color: rgb(21, 21, 21);
+  flex-direction: column;
+}
+.homeBtn , .adminBtn{
+  width: 40%;
+  height: 40%;
+}
+
+
+/* Register Component */
+.regSec,
+.loginSec,
+.createTicketSec,
+.allTicketSec{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(236, 236, 236, 0.653);
+  height: var(--bgHeight);
+  margin-left: 1rem;
+}
+.regCard{
+  width: 30%;
+  height: 80%;
+  background-color: rgba(13, 145, 222, 0.295);
+  border: none;
+}
+.regForm{
+  width: 100%;
+  height: 80%;
+  background-color: rgb(241, 241, 241);
+  padding-block: 3.5rem;
+  padding-inline: 3rem;
+  justify-content: space-around;
+}
+.regForm p{
+  font-size: 1.4rem;
+  color: rgb(21, 21, 21);
+  text-align: center;
+}
+.regForm p a{
+  font-size: 1.4rem;
+  color: rgb(21, 21, 21);
+  text-decoration: none;
+  font-weight: 800;
+}
+.regForm p a:hover{
+  font-size: 1.4rem;
+  color: rgb(21, 21, 21);
+  text-decoration: underline;
+}
+.regForm a{
+  font-size: 1.4rem;
+  color: rgb(6, 145, 205);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
+
+/* Login Component CSS */
+.loginCard{
+  width: 28%;
+  height: 65%;
+  padding-block: 2rem;
+  background-color: rgba(13, 145, 222, 0.295);
+  border: none;
+}
+.loginForm{
+  width: 100%;
+  height: 70%;
+  background-color: rgb(255, 255, 255);
+  padding-block: 3.5rem;
+  margin-block: 2rem;
+  padding-inline: 3rem;
+  justify-content: space-around;
+}
+.loginLogo{
+  width: 30%;
+  height: 35%;
+}
+.loginLogo img{
+  width: 65%;
+  height: 100%;
+}
+.loginForm a{
+  font-size: 1.4rem;
+  color: rgb(6, 145, 205);
+  font-weight: 700;
+  text-decoration: none;
+}
+.loginForm p{
+  font-size: 1.4rem;
+  color: rgb(21, 21, 21);
+  text-align: center;
+}
+.loginForm p a{
+  font-size: 1.4rem;
+  color: rgb(6, 145, 205);;
+  text-decoration: none;
+  font-weight: 800;
+}
+.loginForm p a:hover{
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+
+/* Create Ticket Components */
+
+.createTicketCard{
+  width: 28%;
+  height: 70%;
+  padding-block: 2rem;
+  background-color: rgba(13, 145, 222, 0.295);
+  border: none;
+}
+.createTicketForm{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-block: 3.5rem;
+  margin-block: 2rem;
+  padding-inline: 3rem;
+  justify-content: space-around;
+}
+
+
+
+/* Single Ticket Components */
+.singleTicketSec{
+    background-color: rgba(236, 236, 236, 0.653);
+    /* height: var(--bgHeight); */
+}
+.singleTicket{
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SingleTicketCard{
+  width: 85%;
+  height: 23rem;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.heading{
+  width: 85%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btnBox{
+  width: 85%;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+}
+.singleTicketNote{
+  width: 85%;
+  height: 50rem;
+  flex-direction: column;
+}
+.noteHeading{
+  width: 85%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-self: start;
+}
+.noteCard{
+  width: 85%;
+  height: 50%;
+  margin-top: 1rem;
+}
+.selectTextField{
+  height: 5.7rem;
+}
+
+
+
+
+/* AllTableData Components */
+tr{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+th{
+  text-align: center;
+}
+
+/* Admin Sec */
+.adminSec{
+  width: 100%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  padding-block: 3.5rem;
+  margin-block: 2rem;
+  padding-inline: 3rem;
+  justify-content: space-around;
+}
+
+
+@media (max-width:768px) {
+  html{
+    font-size: 50%;
+  }
+
+  /* Home Page */
+  .homeHeading{
+    width: 70%;
+    margin-left: 5rem;
+  }
+  .homeBtn{
+    width: 55%;
+  }
+
+
+  /* Register Component */
+  .regCard{
+    width: 60%;
+    height: var(--cardHeight);
+    padding-block: 2rem;
+    background-color: rgba(13, 145, 222, 0.295);
+    border: none;
+  }
+  .regForm{
+    width: 100%;
+    height: 90%;
+  }
+
+  /* Login Component */
+  .loginCard{
+    width: 60%;
+  }
+  .loginForm{
+    width: 100%;
+    height: 90%;
+  }
+
+  /* CreateTicket Componet */
+  .createTicketCard{
+    width: 60%;
+  }
+  .createTicketForm{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    padding-block: 3.5rem;
+    margin-block: 2rem;
+    padding-inline: 3rem;
+    justify-content: space-around;
+  }
+  .selectTextField{
+    height: 8rem;
+  }
+}
+
+
+
+@media (max-width : 400px) {
+  html{
+    font-size: 40%;
+  }
+
+  /* Home Components */
+
+  .homeHeading{
+    width: 90%;
+    height: 80%;
+    justify-content: center;
+    margin-left: 0rem;
+    border: none;
+    box-shadow: .1rem .1rem 2rem black;
+  }
+  .homeBtn{
+    width: 70%;
+    height: 20%;
+  }
+  /* Register Components */
+  .regCard{
+    width: 100%;
+    height: 100%;
+  }
+  .regForm{
+    width: 90%;
+    height: 60%;
+  }
+
+
+  /* Login Components */
+  .loginLogo{
+    width: 30%;
+    height: 25%;
+  }
+  .loginLogo img{
+    width: 50%;
+    height: 60%;
+  }
+  .loginCard{
+    width: 100%;
+    height: 100%;
+  }
+  .loginForm{
+    width: 90%;
+    height: 60%;
+    padding-block: 3.5rem;
+    margin-block: 2rem;
+    padding-inline: 3rem;
+    justify-content: space-around;
+  }
+
+
+  /* Create Ticket Component */
+  .createTicketCard{
+    width: 100%;
+    height: 100%;
+  }
+  .createTicketForm{
+    width: 90%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    padding-block: 3.5rem;
+    margin-block: 2rem;
+    padding-inline: 3rem;
+    justify-content: space-around;
+  }
+
+
+
+  /* Single Ticket Components */
+  .singleTicket{
+    width: 100%;
+  }
+  .singleTicketNote{
+    width: 100%;
+  }
+}
